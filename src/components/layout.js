@@ -67,7 +67,20 @@ class Layout extends React.Component {
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
           <br />
-          <a href="http://beian.miit.gov.cn/">粤ICP备 18140158号</a>
+          <a href="http://beian.miit.gov.cn/">
+            <i
+              style={{
+                left: 0,
+                top: 0,
+                display: 'inline-block',
+                width: 20,
+                height: 23,
+                background:
+                  'url(https://static.ws.126.net/163/f2e/www/index20170701/images/sprite_img20191120.png) no-repeat -459px -662px',
+              }}
+            ></i>
+            粤ICP备 18140158号
+          </a>
         </footer>
       </div>
     );
