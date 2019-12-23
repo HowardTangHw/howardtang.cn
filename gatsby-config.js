@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
+    title: `HowardTang's blog`,
+    author: `Howard Tang`,
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `http://www.howardtang.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: ``,
     },
   },
   plugins: [
@@ -57,12 +57,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `HowardTang's blog`,
+        short_name: `Hw's blog`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#ffa7c4`,
         display: `minimal-ui`,
+        theme_color_in_head: false,
         icon: `content/assets/gatsby-icon.png`,
       },
     },
@@ -75,4 +76,4 @@ module.exports = {
       },
     },
   ],
-}
+};
