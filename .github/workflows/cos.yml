@@ -31,4 +31,4 @@ jobs:
         REGION: ap-guangzhou
       run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
     - name: Upload to cos
-      run: coscmd upload -r ./public / --ignore "./.git/*"
+      run: coscmd upload -r ./public/ / --ignore "./.git/*"
