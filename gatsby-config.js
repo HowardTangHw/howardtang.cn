@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `HowardTang's blog`,
+    title: `HowardTang's blog---個人博客`,
     author: `Howard Tang`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `http://www.howardtang.com`,
