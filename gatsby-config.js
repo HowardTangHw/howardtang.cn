@@ -3,7 +3,7 @@ module.exports = {
     title: `鄧皓文個人博客`,
     author: `Howard Tang`,
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `http://www.howardtang.com`,
+    siteUrl: `http://www.howardtang.cn`,
     social: {
       twitter: ``,
     },
